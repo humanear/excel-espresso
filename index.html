@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Excel Espresso | Sioux Falls, SD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════ NAVBAR ══════════════════ -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="images/logo.png" alt="Excel Espresso Logo" />
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact" class="nav-btn">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">&#9776;</button>
+    </div>
+    <ul class="mobile-nav" id="mobileNav">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#location">Location</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </header>
+
+  <!-- ══════════════════ HERO ══════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <img src="images/hero.jpg" alt="Master barista at Excel Espresso" class="hero-img" />
+    <div class="hero-content">
+      <h1 class="script-title hero-tagline-small">Welcome to</h1>
+      <h2 class="hero-brand">Excel Espresso</h2>
+      <p class="hero-tagline">Where Every Cup Is a Masterpiece.</p>
+      <a href="#menu" class="btn-primary">Explore Our Menu</a>
+    </div>
+  </section>
+
+  <!-- ══════════════════ ABOUT ══════════════════ -->
+  <section class="about section-pad" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-eyebrow">Our Story</span>
+          <h2 class="script-title section-title">A Passion for the Perfect Shot</h2>
+          <p>Excel Espresso was born out of a simple belief — that great coffee can change your whole day. Nestled in the heart of Sioux Falls, South Dakota, our espresso bar is a sanctuary for coffee lovers who refuse to settle for ordinary.</p>
+          <p>We source only the finest single-origin and blended beans from certified farms around the world, roasted to perfection and pulled with the precision of a true craft. Whether you stop in for a quick shot before work or linger over a long-form latte on a Saturday morning, we promise you an experience that goes far beyond the cup.</p>
+          <p>Come as a stranger. Leave as a regular.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">12+</span>
+              <span class="stat-label">Signature Drinks</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">6</span>
+              <span class="stat-label">Bean Origins</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Ethically Sourced</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-img-wrap">
+          <img src="images/barista.webp" alt="Barista serving espresso" class="about-img" />
+          <div class="about-badge">
+            <span class="script-title">Est. 2024</span>
+            <br/>Sioux Falls, SD
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ MENU ══════════════════ -->
+  <section class="menu section-pad" id="menu">
+    <div class="container">
+      <span class="section-eyebrow light">What We Serve</span>
+      <h2 class="script-title section-title light-title">Our Signature Menu</h2>
+      <p class="menu-subtitle">Every drink is crafted to order, with whole-milk, oat, almond &amp; soy alternatives always available.</p>
+      <div class="menu-grid">
+
+        <div class="menu-card">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=600&q=80" alt="Classic Espresso" />
+          </div>
+          <div class="menu-info">
+            <h3 class="script-title menu-name">The Classic Shot</h3>
+            <p>A double ristretto pulled from our signature house blend — bold, sweet, and impossibly smooth. The foundation of everything we do.</p>
+            <span class="menu-price">$3.50</span>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&q=80" alt="Flat White" />
+          </div>
+          <div class="menu-info">
+            <h3 class="script-title menu-name">Velvet Flat White</h3>
+            <p>Micro-foamed whole milk poured over a concentrated double ristretto. Silky, rich, and dangerously easy to drink.</p>
+            <span class="menu-price">$5.25</span>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&q=80" alt="Caramel Latte" />
+          </div>
+          <div class="menu-info">
+            <h3 class="script-title menu-name">Prairie Caramel Latte</h3>
+            <p>Espresso, steamed milk, and a ribbon of house-made salted caramel syrup. Inspired by the sweet warmth of the South Dakota plains.</p>
+            <span class="menu-price">$6.00</span>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&q=80" alt="Cold Brew" />
+          </div>
+          <div class="menu-info">
+            <h3 class="script-title menu-name">Dark Skies Cold Brew</h3>
+            <p>Steeped for 18 hours in cold, filtered water. Slow, dark, and intensely smooth — served over hand-cut ice with a touch of cream.</p>
+            <span class="menu-price">$5.75</span>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Cappuccino" />
+          </div>
+          <div class="menu-info">
+            <h3 class="script-title menu-name">Artisan Cappuccino</h3>
+            <p>Equal parts espresso, steamed milk, and thick, velvety foam. Dusted with dark cocoa powder and finished with latte art.</p>
+            <span class="menu-price">$5.00</span>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?w=600&q=80" alt="Mocha" />
+          </div>
+          <div class="menu-info">
+            <h3 class="script-title menu-name">Midnight Mocha</h3>
+            <p>Espresso meets house-made dark chocolate ganache and steamed milk. Rich, indulgent, and absolutely worth it.</p>
+            <span class="menu-price">$6.50</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ LOCATION ══════════════════ -->
+  <section class="location section-pad" id="location">
+    <div class="container">
+      <span class="section-eyebrow">Find Us</span>
+      <h2 class="script-title section-title">Come Visit Us</h2>
+      <div class="location-grid">
+        <div class="location-info">
+          <div class="location-item">
+            <div class="loc-icon">📍</div>
+            <div>
+              <h4>Address</h4>
+              <p>123 Phillips Avenue<br/>Sioux Falls, SD 57104</p>
+            </div>
+          </div>
+          <div class="location-item">
+            <div class="loc-icon">🕐</div>
+            <div>
+              <h4>Hours</h4>
+              <p>Monday – Friday: 6:00 AM – 7:00 PM<br/>
+                 Saturday: 7:00 AM – 6:00 PM<br/>
+                 Sunday: 8:00 AM – 4:00 PM</p>
+            </div>
+          </div>
+          <div class="location-item">
+            <div class="loc-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p>(605) 555-0192</p>
+            </div>
+          </div>
+          <div class="location-item">
+            <div class="loc-icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p>hello@excelespresso.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            title="Excel Espresso Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.8563869574395!2d-96.73112312376547!3d43.54941557110844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x878ec5bcaa5cbf3b%3A0x3dcdbd32dcdc2b2e!2sPhillips%20Ave%2C%20Sioux%20Falls%2C%20SD%2057104!5e0!3m2!1sen!2sus!4v1711000000000!5m2!1sen!2sus"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ CONTACT ══════════════════ -->
+  <section class="contact section-pad" id="contact">
+    <div class="container contact-inner">
+      <span class="section-eyebrow light">Reach Out</span>
+      <h2 class="script-title section-title light-title">Let's Connect</h2>
+      <p class="contact-sub">Have a question, a catering inquiry, or just want to say hi? We'd love to hear from you.</p>
+      <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Jane" required />
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Doe" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+            <option value="">Select a topic...</option>
+            <option>General Inquiry</option>
+            <option>Catering &amp; Events</option>
+            <option>Wholesale Coffee</option>
+            <option>Feedback</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us what's on your mind..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-full">Send Message</button>
+        <p class="form-success" id="formSuccess">✅ Thank you! We'll be in touch soon.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ══════════════════ FOOTER ══════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <img src="images/logo.png" alt="Excel Espresso" class="footer-logo" />
+      <p class="footer-tagline script-title">Where Every Cup Is a Masterpiece.</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">&copy; 2024 Excel Espresso · Sioux Falls, SD · All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+          document.getElementById('mobileNav').classList.remove('open');
+        }
+      });
+    });
+
+    // Hamburger
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mobileNav').classList.toggle('open');
+    });
+
+    // Sticky navbar shadow
+    window.addEventListener('scroll', () => {
+      document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Contact form
+    function handleSubmit(e) {
+      e.preventDefault();
+      document.getElementById('formSuccess').style.display = 'block';
+      e.target.reset();
+      setTimeout(() => document.getElementById('formSuccess').style.display = 'none', 5000);
+    }
+  </script>
+</body>
+</html>
